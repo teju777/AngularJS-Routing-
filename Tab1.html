@@ -1,0 +1,12 @@
+<h2>TAB 1</h2>
+Filter: <select data-ng-model="input1.type">
+    <option>Show All</option>
+    <option>Text</option>
+    <option>Video</option>
+    <option>Photos</option>
+</select>
+
+
+<ul ng-controller="myCtrl1">
+    <li ng-repeat="x in list | filter:Filter">{{x.value}}</li>
+</ul>

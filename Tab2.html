@@ -1,0 +1,13 @@
+<h2>TAB 2</h2>
+
+<h4>Click on the Thumbnails</h4>
+
+<p ng-controller="myCtrl2">
+<img src="{{imgSrc}}" data-ng-model="image" style="width: 200px; height: 200px">
+
+<br>
+<br>
+
+    <img ng-repeat="x in list2" src="{{x}}" ng-click="fun()" style="width: 50px;height: 50px; margin-left: 5px">
+
+</p>

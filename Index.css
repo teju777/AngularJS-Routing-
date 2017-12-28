@@ -1,0 +1,120 @@
+body{
+    background-color: orangered;
+}
+
+
+#Div1{
+    position: relative;
+    left: 500px;
+
+}
+
+#UL1{
+    position: relative;
+}
+
+#UL1 li{
+    position: absolute;
+    margin: 0;
+    list-style: none;
+    top:0;
+
+}
+
+
+
+#one{
+    left:30px;
+    display: block;
+    width: 105px;
+    height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+#one a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#one a:hover{
+    background-color: lightskyblue;
+}
+
+
+#two{
+    left:135px;
+    display: block;
+    width: 105px;
+    height: 40px;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#two a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#two a:hover{
+    background-color: lightskyblue;
+
+}
+
+
+#three{
+    left: 240px;
+    display: block;
+    width: 105px;
+    height: 40px;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#three a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#three a:hover{
+    background-color: lightskyblue;
+
+}
+
+
+
+#Div2{
+    position: relative;
+    left: 300px;
+    top: 40px;
+    background-color: black;
+    color: white;
+    width: 800px;
+    height: 500px;
+}
+
+#Div3{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 400px;
+    height: auto;
+}
+
